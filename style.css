@@ -1,0 +1,109 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+
+}
+.page{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.header{
+   background-color: black;
+   height: 80px;
+   text-align: center;
+   padding-top: 20px;
+}
+
+.title{
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    width: 30%;
+    background: #bfcece;
+    padding: 40px 40px 40px 80px;
+
+}
+
+
+.main{
+    width: 70%;
+    background: url(./img/1.png);
+    background-position: right;
+    background-repeat: repeat-y;
+    padding: 0 10px;
+    
+
+}
+.logo{
+    float: left;
+    padding-right: 15px;
+}
+
+.text{
+    font-size: 22px;
+    text-align: justify;
+    
+}
+
+.sidebar-title{
+    font-size: 23px;
+    margin-bottom: 30px;
+    padding-left: 50px;
+}
+
+
+
+.list{
+    margin-bottom: 20px;
+
+}
+
+
+.link {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s linear;
+}
+
+.link:hover {
+    color: #fff;
+}
+
+.main-title{
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 0 20px;
+}
+
+
+.footer{
+    padding-top: 30px;
+    height: 100px;
+    background-color:black;
+    text-align: center;
+}
