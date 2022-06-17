@@ -1,0 +1,112 @@
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+
+table{
+    border-collapse: collapse;
+}
+
+td{
+    width: 50px;
+    height: 50px;
+    border: solid black 1px;
+}
+
+
+table tr:nth-child(odd) td:nth-child(odd) {
+	background:black;
+}	
+
+table tr:nth-child(even) td:nth-child(even) {
+	background:black;
+}
+
+
+table tr:first-child td, table tr:first-child td:nth-child(odd){
+    background: green;
+}
+table tr:last-child td, table tr:last-child td:nth-child(even){
+    background: green;
+} 
+    
+
+
+table tr td:first-child, table tr:first-child td:nth-child(odd){
+    background: green !important;
+}
+table tr td:last-child, table tr:last-child td:nth-child(even){
+    background: green !important;
+}
+
+
+
+
+
+.flex{
+    display: flex;
+}
+.star1{
+    width: 82px;
+    height: 83px;
+    background: url(./img/star0.png);
+    background-repeat: no-repeat;
+    
+}
+
+
+.star1:hover{
+    background-image: url(./img/star1.png);
+}
+
+.star2{
+    width: 82px;
+    height: 83px;
+    background: url(./img/star0.png);
+    background-repeat: no-repeat;
+    
+}
+
+
+.star2:hover{
+    background-image: url(./img/star1.png);
+}
+.star3{
+    width: 82px;
+    height: 83px;
+    background: url(./img/star0.png);
+    background-repeat: no-repeat;
+    
+}
+
+
+.star3:hover{
+    background-image: url(./img/star1.png);
+}
+.star4{
+    width: 82px;
+    height: 83px;
+    background: url(./img/star0.png);
+    background-repeat: no-repeat;
+    
+}
+
+
+.star4:hover{
+    background-image: url(./img/star1.png);
+}
+.star5{
+    width: 82px;
+    height: 83px;
+    background: url(./img/star0.png);
+    background-repeat: no-repeat;
+    
+}
+
+
+.star5:hover{
+    background-image: url(./img/star1.png);
+}
+
