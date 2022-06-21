@@ -1,12 +1,11 @@
 
-body{
-    width: 100%;
-    height: 100vh;
-}
+
+    /*№6b*/
 
 
 table{
     border-collapse: collapse;
+   
 }
 
 td{
@@ -45,68 +44,96 @@ table tr td:last-child, table tr:last-child td:nth-child(even){
 
 
 
+
+/*№6d*/
+
+
 .flex{
-    display: flex;
+    display:flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
-.star1{
+.star{
     width: 82px;
     height: 83px;
     background: url(./img/star0.png);
     background-repeat: no-repeat;
-    
 }
 
 
-.star1:hover{
+.flex > div:hover{
     background-image: url(./img/star1.png);
 }
 
-.star2{
-    width: 82px;
-    height: 83px;
-    background: url(./img/star0.png);
-    background-repeat: no-repeat;
+
+/*№6a*/
+.link{
+    margin-bottom: 50px;
+
+}
+.link a{
+    padding: 0 15px 0 50px;
+    font-size: 25px;
+    border-right: solid 2px red;
+    color: green;
+}
+
+
+.link a:first-child{
+    padding-left: 0;
+}
+
+.link a:last-child{
+    border-right: none;
+}
+
+.link a:hover{
+    color: red;
+}
+
+
+
+/*второй способ*/
+
+
+
+
+.link2 a{
+    padding-left: 50px;
+    font-size: 25px;
+    color: green;
+}
+
+
+.link2 a:first-child{
+    padding-left: 0;
+}
+
+
+
+.link2 a:hover{
+    color: red;
+}
+
+ 
+a{
+    position: relative;
+}
     
+
+.link2 a::after{
+    content: "\007C";
+    position: absolute;
+    font-weight: 900;
+    color: red;
+    right: -15%;
+}
+
+.link2 a:last-child::after {
+
+    content: "";
+
 }
 
 
-.star2:hover{
-    background-image: url(./img/star1.png);
-}
-.star3{
-    width: 82px;
-    height: 83px;
-    background: url(./img/star0.png);
-    background-repeat: no-repeat;
-    
-}
-
-
-.star3:hover{
-    background-image: url(./img/star1.png);
-}
-.star4{
-    width: 82px;
-    height: 83px;
-    background: url(./img/star0.png);
-    background-repeat: no-repeat;
-    
-}
-
-
-.star4:hover{
-    background-image: url(./img/star1.png);
-}
-.star5{
-    width: 82px;
-    height: 83px;
-    background: url(./img/star0.png);
-    background-repeat: no-repeat;
-    
-}
-
-
-.star5:hover{
-    background-image: url(./img/star1.png);
-}
 
