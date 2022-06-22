@@ -1,0 +1,174 @@
+/*№6b*/
+
+
+table {
+    border-collapse: collapse;
+
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    border: solid black 1px;
+}
+
+
+table tr:nth-child(odd) td:nth-child(odd) {
+    background: black;
+}
+
+table tr:nth-child(even) td:nth-child(even) {
+    background: black;
+}
+
+
+table tr:first-child td,
+table tr:first-child td:nth-child(odd) {
+    background: green;
+}
+
+table tr:last-child td,
+table tr:last-child td:nth-child(even) {
+    background: green;
+}
+
+
+
+table tr td:first-child,
+table tr:first-child td:nth-child(odd) {
+    background: green !important;
+}
+
+table tr td:last-child,
+table tr:last-child td:nth-child(even) {
+    background: green !important;
+}
+
+
+
+
+
+
+/*№6d*/
+
+
+.flex {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.star {
+    width: 82px;
+    height: 83px;
+    background: url(./img/star0.png);
+    background-repeat: no-repeat;
+}
+
+
+.flex>div:hover {
+    background-image: url(./img/star1.png);
+}
+
+
+/*№6a*/
+.link {
+    margin-bottom: 50px;
+
+}
+
+.link a {
+    padding: 0 15px 0 50px;
+    font-size: 25px;
+    border-right: solid 2px red;
+    color: green;
+}
+
+
+.link a:first-child {
+    padding-left: 0;
+}
+
+.link a:last-child {
+    border-right: none;
+}
+
+.link a:hover {
+    color: red;
+}
+
+
+
+/*второй способ*/
+
+
+
+
+.link2 a {
+    padding-left: 50px;
+    font-size: 25px;
+    color: green;
+}
+
+
+.link2 a:first-child {
+    padding-left: 0;
+}
+
+
+
+.link2 a:hover {
+    color: red;
+}
+
+
+a {
+    position: relative;
+}
+
+
+.link2 a::after {
+    content: "\007C";
+    position: absolute;
+    font-weight: 900;
+    color: red;
+    right: -15%;
+}
+
+.link2 a:last-child::after {
+
+    content: "";
+
+}
+
+/*№6c*/
+
+.name {
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.date {
+    color: green;
+}
+
+.champion {
+    color: red;
+}
+
+.info {
+    color: blue;
+    font-weight: 900;
+}
+
+.info::before {
+
+    content: url(./img/extref.png);
+
+}
+
+.biography {
+    color: blue;
+    font-style: italic;
+}
