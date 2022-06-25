@@ -11,7 +11,7 @@
 
 <body>
 
-    <div class="page">
+    <div class="layout">
         <header class="header">
             <h1 class="title">Привет участникам соревнований!</h1>
         </header>
@@ -80,7 +80,12 @@
 
             <main class="main">
                 <h2 class="main-title">K1</h2>
-                <img class="logo" src="./img/Без названия.jfif" alt="logo">
+                <picture class="logo">
+                    <source media="(max-width: 320px)" srcset="./img/320.jpg">
+                    <source media="(max-width: 768px)" srcset="./img/full.jpg">
+                    <source media="(max-width: 1440px)" srcset="./img/full.jpg">
+                    <img src='./img/full.jpg' alt='logo' />
+                </picture>
                 <p class="text">
                     K-1 — японская компания, основанная в 1993 (и закрытая в 2018 году) последователем
                     каратэ-кёкусинкай Кадзуёси Исии и занимавшаяся организацией и промоушеном кикбоксерских
@@ -105,10 +110,12 @@
         <footer class="footer">
             <h2 class="title">Главное не победа, а участие!</h2>
         </footer>
-
-
     </div>
-
+    <div class="overlay">
+        <div class="modal">
+            <a href="">Вступить в клуб</a>
+        </div>
+    </div>
 
 </body>
 
