@@ -180,37 +180,44 @@ h6 {
         background-color: black;
         text-align: center;
     }
-.list{
-    display: inline;
-    margin-right: 16px;
-}
-.sidebar {
-   text-align: center;
-   padding: 10px;
-}
 
-.link{
-    font-size: 25px;
-}
-ul{
-    margin: 0;
-    padding: 0;
-}
-.sidebar-title{
-    padding: 0;
-    margin-bottom: 12px;
-    
-}
-.text{
-    font-size: 25px;
-    margin: 0;
-}
-.main-title{
-    padding: 10px 0;
-}
-.title{
-    font-size: 25px;
-}
+    .list {
+        display: inline;
+        margin-right: 16px;
+    }
+
+    .sidebar {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .link {
+        font-size: 25px;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .sidebar-title {
+        padding: 0;
+        margin-bottom: 12px;
+
+    }
+
+    .text {
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .main-title {
+        padding: 10px 0;
+    }
+
+    .title {
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -239,27 +246,29 @@ ul{
         height: 50px;
     }
 
-    .list{
+    .list {
         display: inline;
         margin-right: 11px;
-        
+
     }
 
     .sidebar {
         text-align: center;
         padding: 0 10px;
-}
-.link{
-    font-size: 10px;
-}
+    }
 
-.sidebar-title{
-    font-size: 15px;
-   padding: 0;
-   margin: 0;
-}
-ul{
-    margin: 0;
-    padding: 0;
-}
+    .link {
+        font-size: 10px;
+    }
+
+    .sidebar-title {
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
 }
