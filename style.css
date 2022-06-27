@@ -1,0 +1,62 @@
+body {
+    background: rgb(7, 111, 22);
+}
+
+
+p {
+    font-size: 30px;
+}
+
+.layout {
+    display: grid;
+    grid-template-rows: 20% 1fr 40%;
+    height: 100vh;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.biohazard {
+    position: absolute;
+    top: 54px;
+    left: 300px;
+}
+
+.Man-and-woman {
+    position: absolute;
+    top: 30px;
+    left: 505px;
+}
+
+.Yin_and_Yang {
+    position: absolute;
+    top: 257px;
+    left: 404px;
+}
+
+
+.No_smoking {
+    position: absolute;
+    top: 112px;
+    left: 380px;
+    z-index: 1;
+}
+
+
+.biohazard:hover {
+    transform: scale(2.0);
+    z-index: 2;
+}
+
+.Man-and-woman:hover {
+    transform: scale(2.0);
+    z-index: 2;
+}
+
+.Yin_and_Yang:hover {
+    transform: scale(2.0);
+    z-index: 2;
+}
