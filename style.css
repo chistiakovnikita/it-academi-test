@@ -1,18 +1,4 @@
 body {
+    
 
 }
-
-
-#svg_4{
-   
-    transform: scale(1);
-    color: #000000;
-}
-
-#svg_4:hover{
-
-    transform: scale(1.1);
-}
-
-
-
