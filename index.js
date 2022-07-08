@@ -1,9 +1,24 @@
-var name=prompt ('Введите ваше имя')
-var surname=prompt ('Введите вашу фамилию')
-var patronymic=prompt ('Введите ваше отчество')
+var yourName = prompt('Введите ваше имя');
+var yourSurname = prompt('Введите вашу фамилию');
+var yourPatronymic = prompt('Введите ваше отчество');
+var yourAge = prompt('Сколько вам лет?');
+var yourGender = confirm('Ваш пол-мужской?');
 
-var age=prompt ('Сколько вам лет?')
-var gender=confirm ('Ваш пол-мужской?')
-var NSP=('Ваше ФИО:')
 
-alert
+
+if (yourGender) {
+    alert (  $(yourName)  );
+
+}
+
+else {
+
+}
+
+
+
+
+
+
+
+
