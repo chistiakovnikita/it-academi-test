@@ -1,23 +1,50 @@
-var yourName = prompt('Введите ваше имя');
-var yourSurname = prompt('Введите вашу фамилию');
-var yourPatronymic = prompt('Введите ваше отчество');
-var yourAge = prompt('Сколько вам лет?');
-var yourGender = confirm('Ваш пол-мужской?');
 
+
+
+
+const yourSurname = prompt('Ваша фамилия')
+const yourName = prompt('Ваше имя')
+const yourPatronymic = prompt('Ваше отчество')
+const yourAge = prompt('Ваш возраст')
+const yourGender = confirm('Ваш пол-мужской?')
+
+const yourAgeDay = yourAge * 365
+
+const afterFiveYears = Number(yourAge) + Number(5)
 
 
 if (yourGender) {
-    alert (  $(yourName)  );
+    alert(`
+    Ваше фио: ${yourSurname} ${yourName} ${yourPatronymic}
+    Ваш возраст в годах: ${yourAge}
+    Ваш возраст в днях: ${yourAgeDay}
+    Через 5 лет вам будет: ${afterFiveYears}
+    Ваш пол: мужской
+    Вы на пенсии: нет`)
+
+} else {
 
 }
 
-else {
-
-}
 
 
+/*const yourSurname = prompt('Ваша фамилия')
+const yourName = prompt('Ваше имя')
+const yourPatronymic = prompt('Ваше отчество')
+const yourAge = prompt('Ваш возраст')
+const yourGender = confirm('Ваш пол-мужской?')
+
+const yourAgeDay = yourAge * 365
+
+const afterFiveYears = Number(yourAge) + Number(5)
 
 
+yourGender ? alert (`Ваше фио: ${yourSurname} ${yourName} ${yourPatronymic}
+    Ваш возраст в годах: ${yourAge}
+    Ваш возраст в днях: ${yourAgeDay}
+    Через 5 лет вам будет: ${afterFiveYears}
+    Ваш пол: мужской
+    Вы на пенсии: нет`) : ('')*/
 
 
 
